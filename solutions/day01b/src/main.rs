@@ -15,7 +15,7 @@ fn main() {
     println!("{}", calories.into_iter().rev().take(3).sum::<u32>());
 }
 
-fn get_input() -> &'static str {
+fn get_input() -> String {
 "5229
 1021
 2051
@@ -2253,5 +2253,5 @@ fn get_input() -> &'static str {
 2806
 9293
 9680
-10283"
+10283".to_owned()
 }
